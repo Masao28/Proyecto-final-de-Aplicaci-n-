@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon3"
+    tools:context=".Informacion">
+
+    <Button
+        android:id="@+id/regreinfo"
+        android:layout_width="67dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="328dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/ic_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="202dp"
+        android:layout_marginBottom="427dp"
+        android:rotationX="25"
+        android:rotationY="12"
+        android:text="INFORMACION"
+        android:textColor="#ffffff"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+
+    <TextView
+        android:id="@+id/infoTxtCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="280dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="@string/txtCredits"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textColorLink="#ffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="219dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="28dp"
+        android:rotation="4"
+        android:rotationX="25"
+        android:rotationY="21"
+        app:layout_constraintBottom_toTopOf="@+id/infoTxtCredits"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/inicio" />
+
+    Fuente:
+    https://www.iteramos.com/pregunta/4365/como-puedo-hacer-que-los-enlaces-de-un-textview-sean-clicables
+</androidx.constraintlayout.widget.ConstraintLayout>

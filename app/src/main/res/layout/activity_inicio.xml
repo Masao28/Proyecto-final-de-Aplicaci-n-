@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon2"
+    tools:context=".Inicio">
+
+    <Button
+        android:id="@+id/regre"
+        android:layout_width="31dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="328dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/ic_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="92dp"
+        android:text="Menu  De Navegacion"
+        android:textColor="#FEFCFC"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="28dp"
+        android:text="CONSULTORIO DENTAL SMILE'S"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="true"
+        android:textColor="#FEFCFC"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/appp2"
+        android:layout_width="150dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/calendario"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        android:text="Agendar cita"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="true"
+        android:textColor="#040405"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <ImageButton
+        android:id="@+id/informacion2"
+        android:layout_width="154dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/contacto"
+        app:layout_constraintStart_toEndOf="@+id/appp2"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <ImageButton
+        android:id="@+id/datosusu2"
+        android:layout_width="158dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="67dp"
+        android:background="@drawable/comen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appp2" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="32dp"
+        android:text="Informacion"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="true"
+        android:textColor="#040405"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="30dp"
+        android:text="Comentarios"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="true"
+        android:textColor="#040405"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appp2" />
+
+    <ImageButton
+        android:id="@+id/perf"
+        android:layout_width="156dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/perfil3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/datosusu2"
+        app:layout_constraintTop_toBottomOf="@+id/informacion2" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="65dp"
+        android:text="Perfil"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="true"
+        android:textColor="#030303"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/informacion2" />
+
+    <ImageButton
+        android:id="@+id/espec2"
+        android:layout_width="140dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="136dp"
+        android:background="@drawable/esp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perf" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="152dp"
+        android:text="Especialidades"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="true"
+        android:textColor="#070707"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perf" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
