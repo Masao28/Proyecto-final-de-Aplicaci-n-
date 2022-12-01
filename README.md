@@ -6,5 +6,9 @@
 ![image](https://user-images.githubusercontent.com/72528648/205151861-3bfbc866-acbf-4150-af64-2b6e9dc07827.png)
 #paso 5: ejecutar(correr) el proyecto.
 ![image](https://user-images.githubusercontent.com/72528648/205151777-07f7c389-648d-4d57-ad85-058b5d5084fc.png)
+#paso 6: app corriendo 
+![image](https://user-images.githubusercontent.com/72528648/205152537-a27a6734-89bf-45d1-aeda-65cefad0420b.png)
+
+
 
 
